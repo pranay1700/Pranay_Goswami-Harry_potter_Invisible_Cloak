@@ -6,7 +6,7 @@ import numpy as np
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
 out = cv2.VideoWriter('output.avi', fourcc, 20.0, (1280, 720))
 
-##reading from the webcam
+##reading from the directory
 cap = cv2.VideoCapture("video.mp4")
 
 ## Allow the system to sleep for 3 seconds before the webcam starts
