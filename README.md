@@ -5,5 +5,5 @@ This is my first post in github.Let's learn something interesting , lets do some
 
 # Requirements_For_This_Project
 
-1.python 3.5 and above
-2.opencv
+- python 3.5 and above
+- opencv
