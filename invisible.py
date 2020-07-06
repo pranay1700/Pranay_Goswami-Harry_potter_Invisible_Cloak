@@ -4,10 +4,10 @@ import numpy as np
 
 ## Preparation for writing the ouput video
 fourcc = cv2.VideoWriter_fourcc(*'XVID')
-out = cv2.VideoWriter('C:\\Users\\Dell\\Desktop\\invisible\\outputnew4.99.avi', fourcc, 20.0, (1280, 720))
+out = cv2.VideoWriter('output.avi', fourcc, 20.0, (1280, 720))
 
 ##reading from the webcam
-cap = cv2.VideoCapture("C:\\Users\\Dell\\Desktop\\invisible\\raw4.99.mp4")
+cap = cv2.VideoCapture("video.mp4")
 
 ## Allow the system to sleep for 3 seconds before the webcam starts
 time.sleep(3)
